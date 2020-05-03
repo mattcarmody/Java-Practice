@@ -1,6 +1,6 @@
 class Prime {
     
-    public boolean isPrime(int val) {
+    public static boolean isPrime(int val) {
         if (val == 0) {
             return false;
         } else if (val == 1) {
@@ -23,10 +23,9 @@ class Prime {
     
     public static void main(String[] args) {
         int[] nums = {24, 5, 12, -101, 1, 0, 2, 32};
-        Prime prime = new Prime();
         
         for (int num : nums) {
-            if (prime.isPrime(num)) {
+            if (Prime.isPrime(num)) {
                 System.out.println(num + " is prime!");
             } else {
                 System.out.println(num + " is not prime...");
