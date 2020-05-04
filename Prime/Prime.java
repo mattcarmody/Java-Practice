@@ -25,7 +25,7 @@ class Prime {
         int[] nums = {24, 5, 12, -101, 1, 0, 2, 32};
         
         for (int num : nums) {
-            if (Prime.isPrime(num)) {
+            if (isPrime(num)) {
                 System.out.println(num + " is prime!");
             } else {
                 System.out.println(num + " is not prime...");
